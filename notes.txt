@@ -9,3 +9,11 @@ git checkout feature-branch // to change to another branch
 git checkout main // changed to main branch, after which function in server.js 
 has disappared as it stayed with feature-branch
 git merge feature-branch
+git checkout -b feature-checkout // to create new branch and at the same time open it
+git config --global user.name 'JuliaT47'
+git config --global user.email 'Kawaiineko55@gmail.com'
+git config --global user.email(or name) to check what has been saved
+next go to github and create a new repository
+git remote add origin https://github.com/JuliaT47/Node.js_task-manager.git
+git branch -M main
+git push -u origin main
