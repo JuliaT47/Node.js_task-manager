@@ -1,0 +1,8 @@
+install git on computer, check version through Mac terminal git -v
+in VSCode terminal
+git init
+git status
+git add . (. to add all the untracked files)
+git commit -m 'Init commit'
+git branch feature-branch
+git checkout feature-branch // to change to another branch
