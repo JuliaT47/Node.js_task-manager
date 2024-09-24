@@ -14,6 +14,30 @@ git config --global user.name 'JuliaT47'
 git config --global user.email 'Kawaiineko55@gmail.com'
 git config --global user.email(or name) to check what has been saved
 next go to github and create a new repository
+// follow instructions on github below 
 git remote add origin https://github.com/JuliaT47/Node.js_task-manager.git
 git branch -M main
 git push -u origin main
+// create .gitignore files
+check status
+git add . to add gitignore
+git commit -m 'message'
+git push origin main
+
+npm i eslint eslint-config-prettier prettier -D
+npm init @eslint/config
+"From ESLint v9.0.0, the default configuration file is now eslint.config.js.
+If you are using a .eslintrc.* file, please follow the migration guide
+to update your configuration file to the new format:
+
+https://eslint.org/docs/latest/use/configure/migration-guide"
+
+create prettierrc.json file with settings
+in package.json file add "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ." under script
+can be checked in console with:
+ npm run format:check
+ npm run format:write to fix the errors
+ npm run lint:check
