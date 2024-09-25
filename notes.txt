@@ -41,3 +41,10 @@ can be checked in console with:
  npm run format:check
  npm run format:write to fix the errors
  npm run lint:check
+
+ npm i nodemon -D automatically checks changes in the code and restarts node, so saves
+ us doing save and node serever.js everytime when something has been changed.
+ after installing, in package.json add this line under the scripts  "dev": "nodemon server.js"
+ And run: 
+ npm run dev
+
