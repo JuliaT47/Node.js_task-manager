@@ -48,3 +48,7 @@ can be checked in console with:
  And run: 
  npm run dev
 
+MongoDb didnt want to connect, went to https://cloud.mongodb.com/v2/66d8ccfaa9e75d67a187fed2#/security/network/accessList
+and connect IP address through there and it worked.
+
+Stopped on 1:35min
