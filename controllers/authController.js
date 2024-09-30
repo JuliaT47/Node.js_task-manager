@@ -13,6 +13,7 @@ export const register = async (req, res) => {
             email,
             password: hash,
             role,
+            
         });
 
         const { password, ...userData } = user._doc;

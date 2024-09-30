@@ -51,4 +51,9 @@ can be checked in console with:
 MongoDb didnt want to connect, went to https://cloud.mongodb.com/v2/66d8ccfaa9e75d67a187fed2#/security/network/accessList
 and connect IP address through there and it worked.
 
-Stopped on 1:35min
+Download and install docker, open the desktop app
+then in VSCode terminal:
+docker build -t kawaiineko55/task_manager:0.0.1 .  /// builds docker 
+docker container run -d --name task_manager -p 8000:8000 kawaiineko55/task_manager:0.0.1   /// creates container
+docker login
+docker push kawaiineko55/task_manager:0.0.1
